@@ -2,6 +2,9 @@
 
 A small GitHub Copilot CLI extension that adds `/cost`, a read-only estimate of current session token billing using GitHub Copilot AI Credits model pricing.
 
+> [!IMPORTANT]
+> This is a personal, best-effort estimate from local Copilot CLI session metrics. Do not treat it as authoritative billing data; always use the official GitHub billing pages for your account or organization as the source of truth.
+
 <p align="center">
   <img src="docs/assets/cost-meter-terminal.png" alt="Copilot CLI /cost command showing a token usage and AI Credit cost table" width="760">
 </p>
