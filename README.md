@@ -2,14 +2,11 @@
 
 A small GitHub Copilot CLI extension that adds `/cost`, a read-only estimate of current session token billing using GitHub Copilot AI Credits model pricing.
 
-It intentionally keeps the output minimal:
+<p align="center">
+  <img src="docs/assets/cost-meter-terminal.png" alt="Copilot CLI /cost command showing a token usage and AI Credit cost table" width="760">
+</p>
 
-| Model | Tokens | Cost |
-| --- | ---: | ---: |
-| gpt-5.5 input | 571,285 | 286 credits / $2.86 |
-| gpt-5.5 cached input | 18,848,768 | 942 credits / $9.42 |
-| gpt-5.5 output | 46,036 | 138 credits / $1.38 |
-| **Total** | **19,466,089** | **1,366 credits / $13.66** |
+It intentionally keeps the output minimal: model, token bucket, and estimated AI Credit spend.
 
 Pricing source: <https://docs.github.com/en/copilot/reference/copilot-billing/models-and-pricing>
 
@@ -68,10 +65,10 @@ The command prints only a table:
 ```text
 | Model | Tokens | Cost |
 | --- | ---: | ---: |
-| gpt-5.5 input | 571,285 | 286 credits / $2.86 |
-| gpt-5.5 cached input | 18,848,768 | 942 credits / $9.42 |
-| gpt-5.5 output | 46,036 | 138 credits / $1.38 |
-| **Total** | **19,466,089** | **1,366 credits / $13.66** |
+| gpt-5.5 input | 19,729 | 10 credits / $0.10 |
+| gpt-5.5 cached input | 243,200 | 12 credits / $0.12 |
+| gpt-5.5 output | 765 | 2 credits / $0.02 |
+| **Total** | **263,694** | **24 credits / $0.24** |
 ```
 
 ## Billing notes
