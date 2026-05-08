@@ -1,4 +1,4 @@
-# Copilot Cost Meter
+# Copilot CLI Cost Meter
 
 A small GitHub Copilot CLI extension that adds `/cost`, a read-only estimate of current session token billing using GitHub Copilot AI Credits model pricing.
 
@@ -35,6 +35,11 @@ The main maintenance point is the hardcoded pricing table. If GitHub changes mod
 ## Install
 
 Clone the repo, then run the installer for your shell.
+
+```bash
+git clone https://github.com/adstuart/copilot-cli-cost-meter.git
+cd copilot-cli-cost-meter
+```
 
 ### Windows PowerShell
 
@@ -83,4 +88,3 @@ Check syntax:
 ```bash
 npm run check
 ```
-

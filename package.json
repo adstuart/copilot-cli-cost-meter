@@ -1,5 +1,5 @@
 {
-  "name": "copilot-cost-meter",
+  "name": "copilot-cli-cost-meter",
   "version": "0.1.0",
   "private": true,
   "description": "GitHub Copilot CLI extension that estimates current session AI Credit cost from token usage.",
@@ -15,4 +15,3 @@
   ],
   "license": "MIT"
 }
-
