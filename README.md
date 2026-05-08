@@ -4,6 +4,8 @@ A small GitHub Copilot CLI extension that adds `/cost`, a read-only estimate of 
 
 > [!IMPORTANT]
 > This is a personal, best-effort estimate from local Copilot CLI session metrics. Do not treat it as authoritative billing data; always use the official GitHub billing pages for your account or organization as the source of truth.
+>
+> The pricing table is hardcoded from the public GitHub Copilot AI Credits documentation as checked on May 5, 2026. It does not dynamically fetch or adjust to future pricing changes, so treat this as a proof of concept for personal education unless you update the code when prices change.
 
 <p align="center">
   <img src="docs/assets/cost-meter-terminal.png" alt="Copilot CLI /cost command showing a token usage and AI Credit cost table" width="760">
